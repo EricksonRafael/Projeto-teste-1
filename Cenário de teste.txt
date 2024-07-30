@@ -1,0 +1,20 @@
+Cenário: Logar com Sucesso
+Step: Digitar email válido, digitar senha válida e clicar em logar
+Resultado esperado: Logar com sucesso - OK
+
+Cenário: Tentar logar com email ou senha inválida
+Step: Digitar um email ou senha inválida e clicar no botão logar
+Resultado esperado: Mensagemn de erro informando email ou senha inválida - OK
+
+Cenário: Tentar logar sem digitar um email ou senha
+Step: Deixar os campos email e senha vazios e clicar no botão logar
+Resultado esperado: Mensagem de erro informando para inserir email ou senha - OK
+
+Cenário: Tentar logar sem conexão com a internet
+Step: Cortar a conexão com a internet e tentar logar 
+Resultado esperado: Uma mensagem de erro informando que o usuario está sem acesso a internet - OK
+
+Cenário: Tentar logar com email diferente do gmail
+Step: digitar um email que nao é Gmail, digitar uma senha e clicar em logar
+Resultado esperado: Uma mensagem de erro informando que o usuario precisa de um Gmail para ter acesso - OK
+
